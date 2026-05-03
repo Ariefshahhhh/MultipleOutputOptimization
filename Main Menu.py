@@ -42,8 +42,8 @@ st.markdown("---")
 # ------------------ INTRO ------------------
 st.markdown("""
 <div class='section-card'>
-This system is designed to analyze and optimize **bifacial photovoltaic (PV) module performance**  
-using both **physical modeling** and **AI-based optimization (Artificial Bee Colony algorithm)**.
+This system is designed to analyze and optimize bifacial photovoltaic (PV) module performance  
+using both physical modeling and AI-based optimization (Artificial Bee Colony algorithm).
 </div>
 """, unsafe_allow_html=True)
 
@@ -109,4 +109,4 @@ Focus: PV Modeling • Optimization • AI Integration
 
 
 
-st.sidebar.success("Select "Computational Tool" to begin ")
+st.sidebar.success("Select Computational Tool to begin ")
