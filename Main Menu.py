@@ -109,4 +109,19 @@ Focus: PV Modeling • Optimization • AI Integration
 
 
 
-st.sidebar.success("Select Computational Tool to begin ")
+
+st.sidebar.markdown(
+    """
+    <div style="
+        background-color:#1f77b4;
+        padding:12px;
+        border-radius:10px;
+        color:white;
+        text-align:center;
+        font-weight:bold;
+        font-size:16px;">
+        🚀 Select Computational Tool to Begin
+    </div>
+    """,
+    unsafe_allow_html=True
+)
