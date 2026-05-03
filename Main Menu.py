@@ -116,7 +116,7 @@ st.sidebar.markdown(
         text-align:center;
         font-weight:bold;
         font-size:16px;">
-        🔧 Choose Your Tool & Start Computing
+        🔧 Choose computational tool to begin
     </div>
     """,
     unsafe_allow_html=True
