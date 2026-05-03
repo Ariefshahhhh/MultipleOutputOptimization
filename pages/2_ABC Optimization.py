@@ -234,3 +234,19 @@ if st.button("🐝 Run ABC Optimization"):
         "ABC tuned BG, dirt, Fmm, and Fshade to minimise |Pmax_calc − Pmax_measured|. "
         "Voc and Vmp are temperature-only and are not affected by the optimized factors."
     )
+    
+    st.sidebar.markdown(
+    """
+    <div style="
+        background-color:#2c3e50;
+        padding:12px;
+        border-radius:10px;
+        color:#ecf0f1;
+        text-align:center;
+        font-weight:bold;
+        font-size:16px;">
+        🔧 Choose Result & Graph for more details
+    </div>
+    """,
+    unsafe_allow_html=True
+)
