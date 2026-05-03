@@ -97,3 +97,19 @@ if st.button("Calculate Outputs"):
     st.session_state["Fage"]            = Fage
 
     st.info("All calculations follow the datasheet-based PV computation formula at module level.")
+
+    st.sidebar.markdown(
+        """
+        <div style="
+            background-color:#2c3e50;
+            padding:12px;
+            border-radius:10px;
+            color:#ecf0f1;
+            text-align:center;
+            font-weight:bold;
+            font-size:16px;">
+            🔧 Choose ABC optimization to optimize
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
