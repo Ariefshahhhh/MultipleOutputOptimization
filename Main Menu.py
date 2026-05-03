@@ -109,4 +109,4 @@ Focus: PV Modeling • Optimization • AI Integration
 
 
 
-st.sidebar.success("Select the Computational Tool to begin ")
+st.sidebar.success("Select "Computational Tool" to begin ")
