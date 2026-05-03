@@ -106,22 +106,20 @@ Focus: PV Modeling • Optimization • AI Integration
 
 
 
-
-
-
-
 st.sidebar.markdown(
     """
     <div style="
-        background-color:#1f77b4;
+        background: linear-gradient(90deg, #ff7e5f, #feb47b);
         padding:12px;
-        border-radius:10px;
+        border-radius:12px;
         color:white;
         text-align:center;
         font-weight:bold;
-        font-size:16px;">
-        🚀 Select Computational Tool to Begin
+        font-size:16px;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.2);">
+        ⚡ Select Computational Tool to Begin
     </div>
     """,
     unsafe_allow_html=True
+)
 )
