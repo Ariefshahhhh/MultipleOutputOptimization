@@ -34,7 +34,7 @@ h1, h2, h3 {
 """, unsafe_allow_html=True)
 
 # ------------------ HEADER ------------------
-st.markdown("<h1 style='text-align: center;'>🔆 Bifacial PV Output Optimization System</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>🔆 Bifacial PV Multiple Output Optimization System</h1>", unsafe_allow_html=True)
 st.markdown("<p class='small-text' style='text-align: center;'>AI-Based Solar Performance Modeling & Optimization</p>", unsafe_allow_html=True)
 
 st.markdown("---")
