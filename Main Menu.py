@@ -2,7 +2,7 @@ import streamlit as st
 
 # ------------------ PAGE CONFIG ------------------
 st.set_page_config(
-    page_title="Bifacial PV Optimization System",
+    page_title="Bifacial PV Multiple Optimization System",
     layout="wide",
     initial_sidebar_state="expanded"
 )
