@@ -10,20 +10,20 @@ col1, col2 = st.columns(2)
 # ---------- LEFT ----------
 with col1:
     st.subheader("📦 Module Electrical Data at STC")
-    Pmax_stc = st.number_input("Pmax at STC (W)", value=450.0)
-    Vmp_stc = st.number_input("Vmp at STC (V)", value=41.0)
-    Imp_stc = st.number_input("Imp at STC (A)", value=10.98)
-    Voc_stc = st.number_input("Voc at STC (V)", value=49.5)
-    Isc_stc = st.number_input("Isc at STC (A)", value=11.5)
+    Pmax_stc = st.number_input("Pmax at STC (W)", value=610.0)
+    Vmp_stc = st.number_input("Vmp at STC (V)", value=40.51)
+    Imp_stc = st.number_input("Imp at STC (A)", value=15.06)
+    Voc_stc = st.number_input("Voc at STC (V)", value=48.38)
+    Isc_stc = st.number_input("Isc at STC (A)", value=15.95)
 
 # ---------- RIGHT ----------
 with col2:
     st.subheader("🌡 Temperature Coefficients")
-    alphasc = st.number_input("α (Isc coeff, %/°C)", value=0.040, format="%.3f")
-    betaoc  = st.number_input("β (Voc coeff, %/°C)", value=-0.280, format="%.3f")
-    alphamp = st.number_input("α (Imp coeff, %/°C)", value=0.040, format="%.3f")
+    alphasc = st.number_input("α (Isc coeff, %/°C)", value=0.045, format="%.3f")
+    betaoc  = st.number_input("β (Voc coeff, %/°C)", value=-0.230, format="%.3f")
+    alphamp = st.number_input("α (Imp coeff, %/°C)", value=0.045, format="%.3f")
     betamp  = st.number_input("β (Vmp coeff, %/°C)", value=-0.280, format="%.3f")
-    gamma   = st.number_input("γ (Pmax coeff, %/°C)", value=-0.350, format="%.3f")
+    gamma = st.number_input("γ (Pmax coeff, %/°C)", value=-0.280, format="%.3f")
 
     st.subheader("⚙ Loss & Correction Factors")
     dirt   = st.number_input("Dirt Level (%) [Range: 0 – 20%]", min_value=0.0, max_value=20.0, value=5.0)
